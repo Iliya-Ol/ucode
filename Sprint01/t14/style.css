@@ -1,0 +1,34 @@
+.fire {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 138px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(221, 89, 13);
+    border-radius: 50% 0 50% 50%;
+    transform: rotate(-45deg);
+    background: linear-gradient( -145deg, rgba(220, 7, 39, 0.947), rgba(245, 210, 56, 0.797));
+    box-shadow: 0 0 10px rgb(240, 149, 149);
+    
+}
+.top{
+    position: absolute;
+    width: 50px;
+    height: 65px;
+    margin-top: -60px;
+    margin-left: 238px;
+    background: rgb(77, 44, 44);
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 15px -15px 10px 10px rgb(255, 255, 255), inset 0px 5px 5px white;
+}
+.stick{
+    position: relative;
+    width: 25px;
+    height: 350px;
+    background: rgb(202, 157, 98);
+    margin-left: 250px;
+    margin-top: 350px;
+    border: 1px solid rgb(133, 47, 47);
+    background: linear-gradient( to right, rgb(139, 76, 39), rgb(224, 165, 87));
+    }

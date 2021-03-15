@@ -1,0 +1,46 @@
+li:nth-child(3)::after {
+    content: "\21d2";
+    color: coral;    
+    text-decoration: underline green;
+}
+li:nth-child(5)::after {
+    content: "\21d2";
+    color: coral;
+    text-decoration: underline blue;    
+}
+li::before {
+    content: "\00BB";
+    color: rgb(1, 1, 219);
+    text-decoration: underline;
+}
+li:nth-child(3)::before {
+    color: green;
+    text-decoration:underline green;
+}
+li:nth-child(5)::before {
+    color: green;
+    text-decoration:underline green;
+}
+
+a{
+    padding-left: 10px;
+}
+li:nth-child(7)::before, li:nth-child(9)::before {
+    content: "\00d7";
+    color: red;
+    text-decoration: underline blue;
+}
+a {
+    color: blue;
+}
+a:nth-child(3) {
+    color: green;
+}
+a[href="https://www.freecodecamp.org/"],[href="https://www.sitemaps.org/"]{
+    color: green;
+}
+li:hover:nth-child(5)::after{
+    font-style: italic;
+    content: "\2026 last symbol is 'a'";
+    color: coral;
+}

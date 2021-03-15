@@ -1,0 +1,17 @@
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #008000;
+    animation: nudge 2s linear infinite alternate 0s forwards;
+    position: relative;
+}
+.circle:hover {
+    background-color: red;
+    transition: 2s;
+  }
+  @keyframes nudge {
+    from { left: 0; }
+    to { left: 600px; }
+   }
+  

@@ -1,0 +1,72 @@
+.wrap {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+span{
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    position: absolute;
+    height: 182px;
+    bottom: -9px;
+    transform: scale(0.9);
+}
+.spider img{
+    bottom: -32px;
+}
+
+.Captain{    
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5%;
+    background: linear-gradient(#3c5be4, #8c1edae3);
+    margin-top: 30px;
+    }
+
+.iron{    
+        margin-top: 30px;
+        position: relative;
+        width: 270px;
+        height: 140px;
+        border-radius: 5%;
+        background: red;
+        margin-top: 30px;
+    
+        }
+.black{
+        margin-top: 30px;
+        position: relative;
+        width: 270px;
+        height: 140px;
+        border-radius: 5%;
+        background: linear-gradient(to right, #0a0a0a, #510588e3);
+        margin-top: 30px;
+    }
+.spider{
+        position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5%;
+    background: linear-gradient(#ee2f1a, #0c0c0ce3);
+    margin-top: 30px;
+
+    }
+    
+    .superhero_alias{
+        font-size: 12px;
+    }
+    .real-name{
+        font-size: 9px;
+        color: rgba(148	156	222	9.9);
+    }

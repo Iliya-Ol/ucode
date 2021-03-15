@@ -1,0 +1,45 @@
+h1{
+   margin-left: 100px;
+}
+.box{
+    position: relative;
+    width: 600px;
+    margin-left: 120px;
+    margin-right: 200px;
+    margin-top: 70px;
+    padding: 25px;
+    background-color: silver;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+        
+}
+.box::before{
+    display: block;
+    content: "";
+    position: absolute;
+    left: -30px;
+    top:-1px;
+    width: 710px;
+    height: 68px;
+    background-color: white;
+    border: 1px solid black;
+    border-left-style: none;
+    border-right-style: none;
+    z-index: -1;
+}
+.box::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: -40px;
+    width: 650px;
+    height: 140px;
+    background-color: white;
+    border: 1px solid black;
+    border-top-style: none;
+    border-bottom-style: none;
+    z-index: -2;
+}
