@@ -1,0 +1,163 @@
+body {
+    background: url(../assets/images/okean.jpg);
+    padding: 0;
+}
+.portfolio{
+    width: 100%;
+    height: 100%;
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: 'Chivo', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #0a12f5, #f5dd0a);
+    height: 240px;
+    width: 100%;
+    padding-top: 20px;
+    
+    color: white;
+}
+.photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 5px rgb(rgb(52, 39, 128), green, blue)
+}
+img {
+    height: 80px;
+    width: 80px;
+}
+
+.center1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    box-shadow: 0 0 1rem 0 rgba(99, 98, 98, 0.5);
+    border-radius: 30px;
+    position: relative;
+    margin-top: 30px;
+    
+}
+.center11{
+    align-content: center;
+    background: linear-gradient(to top, #3f87a6, #f69d3c);
+    color: azure;
+    border-radius: 30px; 
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+h2{
+    
+    border-radius: 20px;
+    text-align: center;
+    
+       
+}
+  
+   .center22{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       font-family: 'Josefin Sans', sans-serif;
+   }
+   .center23{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bottom{
+    background-color: rgb(192, 192, 192);
+    border-radius: 30px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.c {
+    border: 3px solid #333; 
+    text-decoration: none; 
+    color: #000; 
+    font-size: x-large;
+    padding: 15px 40px;
+    text-align: center;
+    
+    
+}
+   .c:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); 
+    background: black;
+    color:yellow;
+   }
+   .bottom1{
+       font-weight: bold;
+       font-size: larger;
+       margin-bottom: 50px;
+   }
+   .footer{
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+   }
+   .slider{
+    background: #7e4646;
+    
+}
+.center2{
+    background-color: rgb(165, 140, 140);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.sidebar {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    position: fixed;
+    z-index: 10;
+    right: 5px;
+    top: 500px;     
+}
+.portfolio{
+    position: relative;
+    
+}
+@media screen and (max-width: 1060px) {
+    #primary { width:100%;}
+    #secondary { width:100%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
