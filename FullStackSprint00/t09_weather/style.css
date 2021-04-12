@@ -1,0 +1,28 @@
+.all {
+    display:flex;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    }
+.date {
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(19, 114, 143);
+    text-align: center;  
+    font-family: 'Lato', sans-serif; 
+}
+.deg {
+    font-weight: 400;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+        
+}
+.box:hover {
+    box-shadow: inset 0 0 7px;
+}
