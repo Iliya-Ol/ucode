@@ -1,0 +1,145 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+    padding: 7px;
+}
+
+body{
+  background: linear-gradient(135deg, rgba(108,188,99, 0.25) 25%, rgba(108,188,99, 0.34) 25%, rgba(108,188,99, 0.34) 50%, rgba(108,188,99, 0.25) 50%, rgba(108,188,99, 0.25) 75%, rgba(108,188,99, 0.34) 75%);
+	background-color: #fafafa;
+	background-size: 5rem 5rem;
+  margin: 0px;
+}
+* {box-sizing: border-box;}
+.form1 {
+  position: relative;
+  width: 150px;
+  margin: 0;
+}
+.input1{
+  border: none;
+  outline: none;
+  
+}
+.but1{
+    border: none;
+    outline: none;
+    
+  }
+.input1 {
+  margin-top: 10px;
+  width: 100%;
+  height: 32px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+.but1 {
+  height: 32px;
+  width: 26px;
+  position: absolute;
+  top: 10px;
+  /* right: -20px; */
+  background: #F15B42;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.but1:before {
+  content: '\25BA';
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.syxari{
+    background-color: rgb(32, 139, 107);
+    padding: 5px;
+}
+.nazva{
+    border-bottom: 3px solid black;
+    font-style: italic;
+    width: 120px;
+    text-align: center;
+}
+label {
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  text-align: center;
+  color: rgb(16, 21, 22);
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 100px;
+  background: rgb(105, 192, 105);
+  border: 1px solid slategrey;
+}
+
+input:checked+label::after {
+  content: "\2713";
+  color: white;
+}
+
+input:checked+label {
+  color: white;
+  background: rgb(29, 29, 223);
+}
+
+input:disabled+label::before {
+  background: white;
+  color: silver;
+}
+.filterColor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-column-gap: 30px; */
+  /* grid-row-gap: 30px; */
+}
+
+.but{
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.footer{
+  background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.img{
+  width: 400px;
+  height: 400px;
+  
+}
+
+.commImg{
+  width: 50px;
+  border-radius: 50%;
+}
+.comm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  background-color: white;
+  padding: 10px;
+  outline:2px solid orange
+}
+.product{
+  display: flex;
+}

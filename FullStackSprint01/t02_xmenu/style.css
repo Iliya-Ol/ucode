@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 207, 78);
+    background-color: rgb(28, 37, 170);
+    box-shadow: inset 2px 2px 2px 2px;
+    border-radius: 50px;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
+li ul {
+    position: absolute;
+    display: none;
+    margin-top: 22px;
+  }
+li a {
+    display: block;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    background-color: gold;
+    width: 250px;
+    height: 30px;
+  } 
+  li a:hover {
+    color: yellow;
+    background-color: black;
+  }
+  li:hover ul {
+    display: block;
+    margin: 0%;
+  }
+  .lvl1 {
+    position: relative;
+    top: 0%;
+    left: -40px;
+}
+
+.lvl1 .lvl2 {
+    position: relative;
+    display: none;
+    margin: 5px;
+    left: 266px;
+    bottom: 68px;
+  }
+  .lvl1:hover .lvl2 {
+    display: block;
+    position: relative;
+    left: 229px;
+  }

@@ -1,0 +1,20 @@
+h1 {
+  text-align: center; 
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 200px; */
+}
+.flex-container :last-child{
+  color: green;
+}
+.flex-container :last-child:hover{
+  color: red;
+}
+.flex-container :first-child{
+  color: green;
+}
+.flex-container :first-child:hover{
+  color: red;
+}

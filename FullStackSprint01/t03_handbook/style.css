@@ -1,0 +1,90 @@
+body{
+    background-blend-mode: screen;
+	background:
+		linear-gradient(limegreen, transparent),
+		linear-gradient(90deg, skyblue, transparent),
+		linear-gradient(-90deg, coral, transparent);
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.htmlBlock > div{
+    background: linear-gradient(21deg, #dd03e4, #5611ec);
+  padding: 10px;
+
+}
+
+/* @media screen and (max-width: 1024px){ */
+.htmlBlock{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.cssBlock{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.protBlock{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+/* } */
+.cssBlock > div{
+    background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+    padding: 10px;
+}
+
+.protBlock > div{
+    background: linear-gradient(85deg, #fb63f9, #c2e534);
+    padding: 10px;
+}
+@media screen and (max-width: 768px){
+    .htmlBlock{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .cssBlock{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .protBlock{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
+@media screen and (max-width: 320px){
+    .htmlBlock{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .cssBlock{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .protBlock{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
