@@ -1,0 +1,50 @@
+body{
+    position: relative;
+  }
+  .stone {
+      position: absolute;
+      /* width: 100px;
+      height: 100px;
+      background: blueviolet;
+      cursor: pointer;
+      margin: 15px; */
+      width: 136px;
+      height: 190px;
+      display: block;
+      -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      cursor: pointer;
+    }
+   .stone-1{
+      left: 450px;
+      top: 150px;
+      background: #ffc000;
+    }
+    .stone-2{
+      left: 450px;
+      top: 500px;
+      background: #45bb17;
+    }
+    .stone-3{
+      left: 320px;
+      top: 330px;
+      background: #1889ac;
+    }
+    .stone-4{
+      left: 630px;
+      top: 150px;
+      background: #6559b3;
+    }
+    .stone-5{
+      left: 630px;
+      top: 500px;
+      background: #75142c;
+    }
+    .stone-6{
+      left: 750px;
+      top: 330px;
+      background: #e42910;
+    }
+    .active{
+        border: 7px dotted black;
+    }

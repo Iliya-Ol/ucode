@@ -1,0 +1,62 @@
+body {
+	background-color: #303641;
+	background-image: 
+		linear-gradient(135deg, rgba(0,0,0, 0.2) 0%, rgba(0,0,0, 0.1) 25%, rgba(0,0,0, 0.2) 50%, rgba(0,0,0, 0.1) 75%, rgba(0,0,0, 0.2) 100%), 
+		linear-gradient(90deg, #192129, #303641, #484e57);
+	background-size: 8px 8px, 100%;
+}
+.container{
+    background-color: rgb(138, 219, 136);
+    margin-top: 0;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.slider{
+    /* width: 2100px; */
+    height: 399px;
+    /* margin: 10px auto; */
+    overflow: hidden;
+}
+
+.slider-line{
+    height: 248px;
+    width: 928px;
+    display: flex;
+    position: relative;
+    left: 0; /*для коректной работы transition*/
+    transition: all ease 1s;
+}
+.slider-prev{
+    background-color: black;
+    color: white;
+    margin-left: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    justify-content: center;
+}
+
+.slider-next{
+    display: flex;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    width: 40px;
+    justify-content: center;
+}
+button:hover{
+    background-color: red;
+    text-decoration: none;
+}
+img{
+    width: 700px;
+    height: 400px;
+    padding: 1px;
+}
