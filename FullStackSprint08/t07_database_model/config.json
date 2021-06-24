@@ -1,0 +1,8 @@
+{
+    "db": {
+      "user": "yoleshchen",
+      "host": "localhost",
+      "database": "ucode_web",
+      "password": "securepass"
+    }
+  }
